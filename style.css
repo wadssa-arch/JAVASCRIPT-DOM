@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+ background:
+ linear-gradient(rgb(238, 0, 0), rgba(228, 121, 121, 0.6));
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+height: 6vw;
+width: 100%;
+
+
+}
+
+.frase {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), 
+        url("imagens/super-mario-png6.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display:flex;
+
+    
+}
+
+.imagem{
+  width: 550px;  
+  float:right;
+  height: auto;  
+  margin: 0px;
+  
+  
+}
+.imagemtopo{
+    height: 6vw;
+    width: 8w;
+    
+}
+.imgsupermario {
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    height: auto;
+}
+
+.button{
+    padding: 14px 60px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    background-color: red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+button:hover {
+  background-color: rgb(10, 131, 6); /* muda a cor */
+}
+
+
+.button2{
+    padding: 10px 40px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 220, 43);
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;             
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+
+}
+.button3{
+    padding: 5x 10px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 119, 196);
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;             
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.social{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(151, 154, 158);
+    cursor:pointer;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;             
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+
+}

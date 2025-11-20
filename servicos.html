@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>servicos</title>
+</head>
+<body>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <img class="imagemtopo" src="imagens/mario.png" alt>
+        <button class="button2"><a href="home.html">home</a></button>
+        <button class="button2"><a href="servicos.html">Serviços</a></button>
+        <button class="button2"> <a href="faleconosco.html" >Fale Conosco </a></button>
+    </div>
+
+    <div class="frase">
+        <div class="lado-a-lado">
+            <img class="imgsupermario" src="imagens/super-mario-png-logo.webp" alt="">
+
+            <img class="imagem" src="imagens/mario.png" alt="mario e luigi">
+        </div>
+<main>
+        <section class="signup-section">
+            <h2>Cadastro </h2>
+            
+            <form id="registrationForm" onsubmit="handleSubmit(event)">
+                <!-- Dados Pessoais -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="form-grou">
+                <label for="nome">Nome Completo *</label><br>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <br>
+            <div class="form-grou">
+                <label for="email">Email *</label><br>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <br>
+            
+            <legend>Endereco Completo</legend>
+            <div class="form-grou">
+                <label for="rua"> Rua : </label><br>
+                <input type="text" id="rua" adress="rua" required>
+                <br>
+                <label for="numero">Numero :</label><br>
+                <input type="text" id="numero" adress="numero" required>
+                <br>
+                <label for="bairro"> Bairro :</label><br>
+                <input type="text" id="bairro" adress="bairro" required>
+                <br>
+                <label for="cidade">Cidade  :</label><br>
+                <input type="text" id="cidade" adress="cidade" required>
+                <br>
+                <label for="estado">Estado :</label><br>
+                <input type="text" id="estado" adress="estado" required>
+            </div>
+            <br>
+
+        <div class="form-grou">
+            <label for="tiposervico"> Tipo de Servico *</label>
+            <select id="tiposervico" name="tiposervico" required>
+                <option value="desentupimento">Desentupimento</option>
+                <option value="encanamento">Encanamento</option>
+                <option value="Infiltracao">Infiltração</option>
+                <option value="pingueira">Pingueira</option>
+            </select>
+        </div>
+        <br>
+        
+        
+        <div class="form-grou">
+            <label for="diadoservico"> Dia do Servico *</label>
+            <select id="diadoservico" name="tiposervico" required>
+                <option value="segunda">segunda</option>
+                <option value="terca">Terca</option>
+                <option value="quarta">Quarta</option>
+                <option value="quinta">Quinta</option>
+                <option value="sexta">Sexta</option>
+            </select>
+            <br><br>
+            
+        <form id="registrationForm" onsubmit="handleSubmit(event)">
+    ...
+    <div class="success-message" id="successMessage" style="display:none;">
+        ✅ Cadastro realizado com sucesso! Entraremos em contato em breve.
+    </div>
+
+    <button type="submit" class="button3">Enviar</button>
+</form>
+
+    </fieldset>
+     <!-- Script -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
